@@ -1,5 +1,12 @@
 # Yocto GPS Live Tracker
 
+![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![Yocto Project](https://img.shields.io/badge/Yocto-333333?style=flat&logo=yocto&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat&logo=raspberry-pi&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![GPS Module](https://img.shields.io/badge/Hardware-GPS-brightgreen?style=flat)
+![Client/Server](https://img.shields.io/badge/Architecture-Client%2FServer-blue?style=flat)
+
 ![GPS Live Tracker Demonstration](./assets/demo.gif)
 
 A real-time GPS tracking system built as a custom Yocto Embedded Linux appliance for a Raspberry Pi 4B. A multithreaded C++/Qt/QML server ingests coordinate telemetry over TCP and renders the live position on an OpenStreetMap UI, while a companion mock GPS client replays a recorded route so the full pipeline can be demoed without real hardware.
