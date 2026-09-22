@@ -1,0 +1,13 @@
+[Unit]
+Description=GPS Map Server Auto-Launcher
+After=multi-user.target 
+
+[Service]
+ExecStart=/usr/bin/gps_server
+
+Restart=always
+
+Environment="QT_QPA_PLATFORM=eglfs"
+
+[Install]
+WantedBy=multi-user.target
